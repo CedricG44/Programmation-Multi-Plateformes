@@ -1,0 +1,14 @@
+{
+  "name": "DevFest Nantes 2018",
+  "short_name": "DFA",
+  "start_url": ".",
+  "display": "standalone",
+  "description": "Une super app pour le DevFest",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}

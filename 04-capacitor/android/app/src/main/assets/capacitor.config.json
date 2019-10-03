@@ -1,0 +1,7 @@
+{
+  "appId": "fr.hellocapacitor",
+  "appName": "04-capacitor",
+  "bundledWebRuntime": true,
+  "npmClient": "npm",
+  "webDir": "www"
+}
