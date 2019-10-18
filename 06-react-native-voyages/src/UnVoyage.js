@@ -41,7 +41,11 @@ export default class UnVoyage extends React.Component {
     // TODO propager l'action pour ajouter un nouveau dans les données (App.js)
     voyage.lieux.push(lieu);
     this.props.screenProps.mettreAJourVoyage(voyage);
-    this.props.navigation.navigate("ListerVoyages");
+
+    this.setState({
+      nom: "",
+      description: ""
+    });
   };
 
   render() {
